@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "tailwindcss build src/input.css -o dist/output.css",
-    "start": "vite"
-  },
+  "build:css": "tailwindcss -i ./style.css -o ./dist/output.css --minify",
+  "start" : "vite"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",

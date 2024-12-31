@@ -1,6 +1,11 @@
 /** @type {import('tailwindcss').Config} */
-export const content = ["*"];
-export const theme = {
-  extend: {},
-};
-export const plugins = [];
+module.exports = {
+  content: [
+    './*.html', // Match all HTML files in the root directory
+    './*.js',   // Match all JS files in the root directory
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
