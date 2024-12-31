@@ -3,9 +3,12 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-  "build:css": "tailwindcss -i ./style.css -o ./dist/output.css --minify",
-  "start" : "vite"
-},
+    "build:css": "tailwindcss -i ./style.css -o ./dist/output.css --minify",
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
